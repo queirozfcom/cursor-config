@@ -1,0 +1,10 @@
+{
+    "window.commandCenter": 1,
+    "workbench.colorTheme": "Solarized Light",
+    "cursor.cpp.disabledLanguages": [
+        "markdown"
+    ],
+    "files.associations": {
+        "*.qmd": "markdown"
+    }
+}
