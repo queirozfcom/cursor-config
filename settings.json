@@ -6,5 +6,6 @@
     ],
     "files.associations": {
         "*.qmd": "markdown"
-    }
+    },
+    "explorer.confirmDelete": false
 }

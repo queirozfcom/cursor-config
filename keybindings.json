@@ -3,5 +3,21 @@
     {
         "key": "ctrl+i",
         "command": "composerMode.agent"
-    }
+    },
+    {
+        "key": "ctrl+b",
+        "command": "editor.action.insertSnippet",
+        "args": { 
+          "snippet": "**$1**" 
+        },
+        "when": "editorTextFocus && !editorReadonly && editorLangId == 'markdown'"
+    },
+    {
+      "key": "ctrl+i",
+      "command": "editor.action.insertSnippet",
+      "args": { 
+        "snippet": "*$1*" 
+      },
+      "when": "editorTextFocus && !editorReadonly && editorLangId == 'markdown'"
+  }
 ]

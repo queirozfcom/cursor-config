@@ -6,5 +6,90 @@
             "$2"
         ],
         "description": "Log output to console"
+    },
+    "qcall": {
+        "prefix": "qcall",
+        "body": [
+            "::: {.callout-note collapse=\"${1:false}\"}",
+            " ${2:}",
+            ":::"
+        ]
+    },
+    "qcallt": {
+        "prefix": "qcallt",
+        "body": [
+            "::: {.callout-note title=\"${1:title}\" collapse=\"${2:true}\"}",
+            " ${3:}",
+            ":::"
+        ]
+    },
+    "qcode": {
+        "prefix": "qcode",
+        "body": [
+            "```{#lst-${1:} .${2:language} lst-cap=\"${3:caption}\"}",
+            "${4:code}",
+            "```"
+        ]
+    },
+    "qdraft": {
+        "prefix": "qdraft",
+        "body": [
+            "<span style=\"color: orange;\">DRAFT</span> ${1:}"
+        ]
+    },
+    "qeq": {
+        "prefix": "qeq",
+        "body": [
+            ":::{style=\"overflow-x:auto;overflow-y:hidden;\"}",
+            "$$",
+            "${1:}",
+            "$$ {#eq-${2:}}",
+            ":::"
+        ]
+    },
+    "qfig": {
+        "prefix": "qfig",
+        "body": [
+            "![${1:legend-here}](${2:../figures/placeholder.png}){#fig-${3:} width=${4:60}%}"
+        ]
+    },
+    "qinline": {
+        "prefix": "qinline",
+        "body": [
+            "^[$1]"
+        ]
+    },
+    "qmeat": {
+        "prefix": "qmeat",
+        "body": [
+            "<span style=\"color: red;\">MEAT: ${1:}</span>"
+        ]
+    },
+    "qred": {
+        "prefix": "qred",
+        "body": [
+            "<span style=\"color: red;\">${1:}</span>"
+        ]
+    },
+    "qtable2": {
+        "prefix": "qtable2",
+        "body": [
+            "| ${1:header-1} | ${2:header-2} |",
+            "|------|------|",
+            "|      |      |",
+            ": ${3:legend} {#tbl-${4:}}"
+        ]
+    },
+    "qtodo": {
+        "prefix": "qtodo",
+        "body": [
+            "<span style=\"color: red;\">TODO</span> ${1:}"
+        ]
+    },
+    "qunn": {
+        "prefix": "qunn",
+        "body": [
+            "{.unnumbered}"
+        ]
     }
 }
