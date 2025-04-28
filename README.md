@@ -13,5 +13,5 @@ $ git clone git@github.com:queirozfcom/cursor-config.git /tmp/cursor-stuff && mv
 ## MacOS
 
 ```
-$ git clone git@github.com:queirozfcom/cursor-config.git /tmp/cursor-stuff && mv /tmp/cursor-stuff/*  ~/.Library/Application\ Support/Cursor/User/
+$ git clone git@github.com:queirozfcom/cursor-config.git /tmp/cursor-stuff && mv /tmp/cursor-stuff/*  ~/Library/Application\ Support/Cursor/User/
 ```
