@@ -1,16 +1,20 @@
 // Place your key bindings in this file to override the defaults
 [
     {
-        "key": "ctrl+i",
-        "command": "composerMode.agent"
+      "key": "cmd+i",
+      "command": "editor.action.insertSnippet",
+      "args": { 
+        "snippet": "*$1*" 
+      },
+      "when": "editorTextFocus && !editorReadonly && editorLangId == 'markdown'"
     },
     {
-        "key": "ctrl+b",
-        "command": "editor.action.insertSnippet",
-        "args": { 
-          "snippet": "**$1**" 
-        },
-        "when": "editorTextFocus && !editorReadonly && editorLangId == 'markdown'"
+      "key": "cmd+b",
+      "command": "editor.action.insertSnippet",
+      "args": { 
+        "snippet": "**$1**" 
+      },
+      "when": "editorTextFocus && !editorReadonly && editorLangId == 'markdown'"
     },
     {
       "key": "ctrl+i",
@@ -19,7 +23,7 @@
         "snippet": "*$1*" 
       },
       "when": "editorTextFocus && !editorReadonly && editorLangId == 'markdown'"
-  },
+    },
   {
     "key": "ctrl+k",
     "command": "simpleAutocomplete.next",
@@ -44,5 +48,13 @@
     "key": "ctrl+alt+left",
     "command": "-workbench.action.navigateBack",
     "when": "canNavigateBack"
+  },
+  {
+    "key": "ctrl+b",
+    "command": "editor.action.insertSnippet",
+    "args": { 
+      "snippet": "**$1**" 
+    },
+    "when": "editorTextFocus && !editorReadonly && editorLangId == 'markdown'"
   }
 ]
