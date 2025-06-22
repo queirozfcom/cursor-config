@@ -2,34 +2,38 @@
 [
     {
       "key": "cmd+i",
-      "command": "editor.action.insertSnippet",
-      "args": { 
-        "snippet": "*$1*" 
-      },
-      "when": "editorTextFocus && !editorReadonly && editorLangId == 'markdown'"
+      "scope":"markdown",
+      "command":"editor.action.insertSnippet",
+      "when":"editorTextFocus && editorLangId == 'markdown'",
+      "args":{
+        "snippet":"*$TM_SELECTED_TEXT$0*"
+      }
     },
     {
-      "key": "cmd+b",
-      "command": "editor.action.insertSnippet",
-      "args": { 
-        "snippet": "**$1**" 
-      },
-      "when": "editorTextFocus && !editorReadonly && editorLangId == 'markdown'"
+      "key":"cmd+b",
+      "scope":"markdown",
+      "command":"editor.action.insertSnippet",
+      "when":"editorTextFocus && editorLangId == 'markdown'",
+      "args":{
+        "snippet":"**$TM_SELECTED_TEXT$0**"
+      }
     },
     {
       "key": "ctrl+i",
-      "command": "editor.action.insertSnippet",
-      "args": { 
-        "snippet": "*$1*" 
-      },
-      "when": "editorTextFocus && !editorReadonly && editorLangId == 'markdown'"
+      "scope":"markdown",
+      "command":"editor.action.insertSnippet",
+      "when":"editorTextFocus && editorLangId == 'markdown'",
+      "args":{
+        "snippet":"*$TM_SELECTED_TEXT$0*"
+      }
     },
     {
-      "key": "ctrl+b",
-      "command": "editor.action.insertSnippet",
-      "args": { 
-        "snippet": "**$1**" 
-      },
-      "when": "editorTextFocus && !editorReadonly && editorLangId == 'markdown'"
+      "key":"ctrl+b",
+      "scope":"markdown",
+      "command":"editor.action.insertSnippet",
+      "when":"editorTextFocus && editorLangId == 'markdown'",
+      "args":{
+        "snippet":"**$TM_SELECTED_TEXT$0**"
+      }
     }
 ]
