@@ -35,5 +35,30 @@
       "args":{
         "snippet":"**$TM_SELECTED_TEXT$0**"
       }
-    }
+    },
+  {
+    "key": "ctrl+k",
+    "command": "simpleAutocomplete.next",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "alt+right",
+    "command": "workbench.action.navigateForward",
+    "when": "canNavigateForward"
+  },
+  {
+    "key": "ctrl+alt+right",
+    "command": "-workbench.action.navigateForward",
+    "when": "canNavigateForward"
+  },
+  {
+    "key": "alt+left",
+    "command": "workbench.action.navigateBack",
+    "when": "canNavigateBack"
+  },
+  {
+    "key": "ctrl+alt+left",
+    "command": "-workbench.action.navigateBack",
+    "when": "canNavigateBack"
+  }
 ]

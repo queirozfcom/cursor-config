@@ -2,7 +2,8 @@
     "window.commandCenter": 1,
     "workbench.colorTheme": "Solarized Light",
     "cursor.cpp.disabledLanguages": [
-        "markdown"
+        "markdown",
+        "yaml"
     ],
     "files.associations": {
         "*.qmd": "markdown"
