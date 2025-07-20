@@ -53,6 +53,12 @@
             "![${1:legend-here}](${2:../figures/placeholder.png}){#fig-${3:} width=${4:60}%}"
         ]
     },
+    "qimg": {
+        "prefix": "qimg",
+        "body": [
+            "![${1:legend-here}](${2:../figures/placeholder.png}){#fig-${3:} width=${4:60}%}"
+        ]
+    },
     "qinline": {
         "prefix": "qinline",
         "body": [

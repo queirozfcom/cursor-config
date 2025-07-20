@@ -11,5 +11,6 @@
     "explorer.confirmDelete": false,
     "editor.renderWhitespace": "none",
     "editor.renderControlCharacters": false,
-    "files.insertFinalNewline": true
+    "files.insertFinalNewline": true,
+    "emojisense.unicodeCompletionsEnabled": false
 }
