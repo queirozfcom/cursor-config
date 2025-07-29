@@ -12,5 +12,6 @@
     "editor.renderWhitespace": "none",
     "editor.renderControlCharacters": false,
     "files.insertFinalNewline": true,
-    "emojisense.unicodeCompletionsEnabled": false
+    "emojisense.unicodeCompletionsEnabled": false,
+    "editor.minimap.enabled": true
 }

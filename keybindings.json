@@ -60,5 +60,9 @@
     "key": "ctrl+alt+left",
     "command": "-workbench.action.navigateBack",
     "when": "canNavigateBack"
+  },
+  {
+    "key": "cmd+e",
+    "command": "composerMode.background"
   }
 ]
